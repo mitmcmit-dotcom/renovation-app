@@ -1,4 +1,3 @@
-// app/api/env/route.ts
 import { NextResponse } from 'next/server'
 
 export async function GET() {
@@ -15,3 +14,4 @@ export async function GET() {
     env: process.env.VERCEL_ENV || 'unknown'
   })
 }
+
